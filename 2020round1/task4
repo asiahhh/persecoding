@@ -1,0 +1,13 @@
+x = int(input())
+y = int(input())
+z = int(input())
+
+areaj = x*z
+areas = 0.5*y*z
+
+if areaj > areas:
+  print("Jen")
+  print(areaj - areas)
+else:
+  print("Sid")
+  print(areas - areaj)
