@@ -1,1 +1,5 @@
+x = int(input()) # starfish
+y = int(input()) # spiders
+z = int(input()) # scorpions
 
+print(5*x + 8*y + 12*z)
