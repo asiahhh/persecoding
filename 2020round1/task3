@@ -1,0 +1,9 @@
+a = input()
+b = input()
+c = input()
+d = input()
+e = ", "
+
+foods = a + e + b + e + c + e + d
+print(foods)
+print("-" * len(foods))
