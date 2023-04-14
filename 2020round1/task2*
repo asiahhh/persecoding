@@ -1,0 +1,13 @@
+word = input()
+vowels = 'aeiou'
+
+if word[0] in vowels:
+    print(word[0])
+if word[1] in vowels:
+    print(word[1])
+if word[2] in vowels:
+    print(word[2])
+if word[3] in vowels:
+    print(word[3])
+if word[4] in vowels:
+    print(word[4])  
