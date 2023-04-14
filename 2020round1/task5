@@ -1,0 +1,32 @@
+# wibble wobble wibble wobble jelly on the plate
+
+x = input() # word
+y = int(input()) # 1 2 or 3
+if x == "wibble":
+    if y == 1:
+        print("wobble")
+    elif y == 2:
+        print("wobble wibble")
+    else:
+        print("wobble wibble wobble")
+elif x == "wobble":
+    if y == 1:
+        print("wibble")
+    elif y == 2:
+        print("wibble wobble")
+    else:
+        print("wibble wobble jelly")    
+elif x == "jelly":
+    if y == 1:
+        print("on")
+    elif y == 2:
+        print("on the")
+    else:
+        print("on the plate")
+elif x == "on":
+    if y == 1:
+        print("the")
+elif x == "the":
+        print("plate")
+else:
+    print("plate")
